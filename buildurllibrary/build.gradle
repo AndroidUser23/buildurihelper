@@ -52,7 +52,7 @@ afterEvaluate {
                 from components.release
                 groupId = 'com.github.AndroidUser23.buildurihelper'
                 artifactId = 'build_uri_helper'
-                version = '1.0.0'
+                version = '1.1.0'
             }
         }
     }
