@@ -1,8 +1,6 @@
 package com.sport.buildurllibrary
 
 import android.content.Context
-import android.content.Intent
-import androidx.core.content.ContextCompat.startActivity
 import androidx.core.net.toUri
 import com.appsflyer.AppsFlyerLib
 
@@ -56,7 +54,6 @@ class BuildUriHelper {
                 apps?.get("campaign").toString()
                     .substringAfter("sub5")
             })
-
             appendQueryParameter("gadid", ad)
             appendQueryParameter("deeplink", deep.toString())
             appendQueryParameter("source", apps?.get("media_source").toString()
