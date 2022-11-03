@@ -8,7 +8,7 @@ class BuildUriHelper {
 
     fun buildFinalUri(baseUrl: String,deep: String?, apps: MutableMap<String, Any>?, ad: String, context: Context): String =
         baseUrl.toUri().buildUpon().apply {
-            appendQueryParameter("package", "org.prt.clash.gma")
+            appendQueryParameter("package", "com.guja.poms.glw")
             appendQueryParameter("sub1",
                 if(deep != "null") {
                     deep.toString().replace("myapp://", "")
